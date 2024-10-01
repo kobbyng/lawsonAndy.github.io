@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+
+  
+
+
+.form-check {
+    position: absolute !important;
+    right: 80% !important;
+    bottom: 90% !important;
+}
+
+.form-check input {
+    transition: 0.7s !important;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    gap: 9%;
+    padding:28px 40px 0px 0px;
+    flex-wrap: nowrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size:1.1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+nav a:hover {
+    text-decoration: underline !important;
+    color: hsl(0, 83%, 61%) !important;
+    transition: 0.6s !important;
+}
+
+nav a::after {
+    color: blue;
+}
+
+nav a::before {
+    color: aquamarine;
+}
+
+main {
+    width: 96%;
+    padding: 200px 0px 20px 30px;
+}
+
+.data {
+    padding: 30px 20px 20px 40px;
+    
+}
+
+.top-h {
+    color: white;
+}
+
+.content {
+    padding-top: 50px;
+}
+
+.content hr {
+    color: rgba(128, 128, 128, 0.589);
+}
+
+
+
+/* ////////////////////////////
+//////////////////////////////
+     SOCIALS STYLES ///////////////////////
+     //////////////*/
+
+
+
+
+.socials {
+    display: flex;
+    gap: 23px;
+    flex-wrap: wrap;
+}
+
+
+
+
+.linkedin {
+    width: 6.9%;
+
+}
+
+.linkedin img {
+    width: 89%;
+}
+
+.linkedin  img:hover {
+    width: 95%;
+    transition: 0.5s;
+}
+
+.facebook {
+    width: 6.9%;
+}
+
+.facebook img {
+    width: 95%;
+}
+
+.twitter {
+    width:6.9%;
+}
+
+.twitter img {
+    background-color: white;
+    width: 90%;
+    border-radius: 28.9%;
+}
+
+.facebook img:hover {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.twitter img:hover {
+    width: 95%;
+    transition: 0.5s;
+}
+
+
+ 
+
+
+
+
+
+
+.content h1 {
+    color:red;
+
+}
+
+.content p {
+    font-family: cursive;
+    color:white;
+    width: 90%;
+    font-size: 1.05rem;
+    line-height: 200%;
+}
+
+.profile-pic {
+    width: 40%;
+    padding-top: 10%;
+}
+
+.profile-pic img {
+    width: 100%;
+    border: 2px double palegoldenrod;
+    border-radius: 50%;
+    box-shadow: 4px 15px 15px hsla(0, 0%, 0%, 0.548);
+}
+
+
+
+h2 {
+    color: red;
+    
+}
+
+
+.skills p {
+    color: white;
+    font-family: cursive;
+    
+}
+
+
+.third p {
+    color: white;
+    font-family: cursive;
+    
+}
+
+hr {
+    color:rgba(128, 128, 128, 0.61);
+}
+
+
+
+/* ////////////////////////////////////
+///////////////////////////
+            FOOTER 
+    ////////////////////////////////////
+    //////////////////////////////////// */
+    
+    
+  
+footer {
+    color: rgb(173, 169, 169);
+    background-color: black;
+    display: grid;
+    padding: 40px;    
+}
+
+.email {
+    padding: 2px 12px 10px 2px;
+    font-family: cursive;
+}
+
+.number {
+    padding: 10px 2px 3px 2px;
+    font-family: cursive;
+    transition: 1s;
+}
+
+
+.second-footer {
+    place-self: end;
+   position: relative;
+   top: 88%;
+   color: grey;
+}
+
+footer img {
+    width: 28px;
+    
+} 
+
+
+
+#scrollToTopBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 99;  
+    border: none;
+    outline: none;
+    background-color: white;  
+    color: white;
+    cursor: pointer;
+    /* padding: 10px 15px;
+    border-radius: 5px; */
+    /* font-size: 14px; */
+    width: 50px;
+    opacity: 0;
+    transition: opacity 0.9s ease;
+}
+
+#scrollToTopBtn.show {
+    display: block; 
+    opacity: 1; 
+}
+
+
+
+#scrollToTopBtn:hover {
+    background-color: hsla(0, 14%, 93%, 0.692); /* Darker background on hover */
+}
+
+.btn img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////////////////////
+//////////////////////////////////
+//////////////////////
+                MEDIA QUERY */
+ @Media (min-width:440px) {
+    .form-check {
+        right: 93% !important;
+        bottom: 90%;
+    }
+ }
+
+ @media (min-width:320px) and (max-width:450px) {
+    .profile-pic {
+        width: 100%;
+    }
+ }
+
